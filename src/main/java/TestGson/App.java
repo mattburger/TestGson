@@ -4,6 +4,8 @@
 package TestGson;
 
 public class App {
+    String path = "recentquotes.json";
+
     public String getGreeting() {
         return "Hello world.";
     }
