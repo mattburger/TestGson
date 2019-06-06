@@ -1,45 +1,40 @@
 package TestGson;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.google.gson.*;
+import com.google.gson.internal.LinkedTreeMap;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.stream.JsonReader;
+
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
-class ParseJson{
+class ParseJson {
 
-    String line;
-    String json;
-    ArrayList<String> quotes = new ArrayList<>();
     BufferedReader in;
-    StringBuilder rawJson;
     Gson g = new Gson();
+    JsonResponse[] recentQuotes;
 
 
-    public ParseJson(String path){
+    public ParseJson(String path) {
         try {
             this.in = new BufferedReader(new FileReader(path));
-            this.line = in.readLine();
-        } catch(Exception e){
-            System.out.println("ERROR: Problem with reading file.");
+
+        } catch (Exception e) {
+            System.out.println("ERROR: Problem with file.");
         }
-        this.rawJson = new StringBuilder();
     }
 
-
-    public String createJsonString(){
-        while (this.line != null) {
-            rawJson.append(line).append('\n');
-            try {
-                line = in.readLine();
-            } catch(Exception e){
-                return "Error reading file!";
-            }
-        }
-        String json = rawJson.toString();
-        return json;
+    public void createResponseList(){
+        this.recentQuotes = g.fromJson(this.in, JsonResponse[].class );
     }
 
-    public void printGsonData(){
-        System.out.println(g.fromJson(json, String[].class));
+    public void printRandom(){
+//        int length = this.recentQuotes.size();
+        int range = this.recentQuotes.length;
+        int randInteger = (int)(Math.random() * range) + 1;
+        System.out.println(this.recentQuotes[randInteger].toString() );
     }
 }

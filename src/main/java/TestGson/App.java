@@ -3,14 +3,25 @@
  */
 package TestGson;
 
-public class App {
-    String path = "src/main/resources/recentquotes.json";
+import com.google.gson.stream.JsonReader;
 
+import java.io.FileReader;
+import java.io.IOException;
+
+public class App {
     public String getGreeting() {
         return "Hello world.";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println(new App().getGreeting());
+
+        String path = "src/main/resources/recentquotes.json";
+        ParseJson parser = new ParseJson(path);
+
+        parser.createResponseList();
+
+        parser.printRandom();
     }
+
 }
