@@ -4,12 +4,13 @@ import TestGson.swQuotes.SwResponse;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.*;
 import java.io.*;
+import java.net.ConnectException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
 
 
-class ParseJson {
+class GsonTester {
 
     BufferedReader in;
     Gson g = new Gson();
@@ -17,12 +18,12 @@ class ParseJson {
     JsonResponse swQuote;
 
 
-    public ParseJson(String path) {
+    public GsonTester(String path) {
         try {
             this.in = new BufferedReader(new FileReader(path));
 
         } catch (Exception e) {
-            System.out.println("ERROR: Problem with file.");
+            throw new IllegalStateException("Can't read file that doesn't exist.");
         }
     }
 
@@ -34,7 +35,8 @@ class ParseJson {
     public String getSwData(String path){
         try {
             URL url = new URL("http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote");
-            HttpURLConnection con = (HttpURLConnection)url.openConnection();
+
+            HttpURLConnection con = (HttpURLConnection) url.openConnection();
             Gson gson = new Gson();
 
             BufferedReader reader = new BufferedReader(new InputStreamReader( con.getInputStream() ) );
@@ -56,8 +58,6 @@ class ParseJson {
                 reader2.close();
             }
 
-
-            System.out.println(this.swQuote.getStarWarsQuote());
             return swQuote.getStarWarsQuote();
 
         } catch (Exception e){
@@ -65,9 +65,13 @@ class ParseJson {
         }
     }
 
-    public void printRandom(){
+    public String printRandom(){
         int range = this.recentQuotes.length;
         int randInteger = (int)(Math.random() * range) + 1;
-        System.out.println(this.recentQuotes[randInteger].toString() );
+        return this.recentQuotes[randInteger].toString();
+    }
+
+    public JsonResponse[] getRecentQuotes(){
+        return this.recentQuotes;
     }
 }

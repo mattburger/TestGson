@@ -9,15 +9,8 @@ import static org.junit.Assert.*;
 public class AppTest {
 
     @Test
-    public void testAppHasAGreeting() {
+    public void testAppReturnsAValueOtherThanNull() {
         App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
-    }
-
-
-    @Test
-    public void testApp_getSwData(){
-        App classUnderTest = new App();
-//        assertNotNull("App should return a random quote", classUnderTest.();
+        assertNotNull("app should have a greeting", classUnderTest);
     }
 }

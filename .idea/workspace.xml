@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c62fe461-5940-4643-9ec0-66f992e8dbd0" name="Default Changelist" comment="" />
+    <list default="true" id="c62fe461-5940-4643-9ec0-66f992e8dbd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestGson/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestGson/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recentquotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recentquotes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGson/TestJsonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGson/TestJsonResponse.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -31,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/JsonResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="114">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#685#686#0" expanded="true" />
@@ -41,14 +46,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestGson/TestJsonResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="63" column="25" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#2448#2449#0" expanded="true" />
+                <element signature="e#2488#2489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestGson/TestGsonTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-52">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,25 +94,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="338">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestGson/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,10 +143,12 @@
         <option value="$PROJECT_DIR$/src/main/java/TestGson/swQuotes/SwQuotes.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestGson/swQuotes/SwResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestGson/JsonResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestGson/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestGson/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/recentquotes.json" />
+        <option value="$PROJECT_DIR$/src/test/java/TestGson/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestGson/TestGsonTester.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestGson/TestJsonResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestGson/App.java" />
       </list>
     </option>
   </component>
@@ -271,9 +304,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestGsonTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestGson.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestGson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestGson" />
+      <option name="MAIN_CLASS_NAME" value="TestGson.TestGsonTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJsonResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestGson.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestGson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestGson" />
+      <option name="MAIN_CLASS_NAME" value="TestGson.TestJsonResponse" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.TestJsonResponse" />
+        <item itemvalue="JUnit.TestGsonTester" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Gradle.AppTest" />
       </list>
@@ -293,23 +358,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.06.06 at 09h 34m 51s.xml">
-      <configuration name="AppTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestGsonTester - 2019.06.11 at 13h 52m 30s.xml">
+      <configuration name="TestGsonTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.06.06 at 09h 36m 32s.xml">
-      <configuration name="AppTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestGsonTester - 2019.06.11 at 13h 56m 22s.xml">
+      <configuration name="TestGsonTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.06.06 at 09h 38m 28s.xml">
-      <configuration name="AppTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestGsonTester - 2019.06.11 at 13h 58m 21s.xml">
+      <configuration name="TestGsonTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.06.06 at 09h 40m 46s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestGsonTester - 2019.06.11 at 14h 01m 32s.xml">
+      <configuration name="TestGsonTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.06.06 at 09h 58m 14s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestGsonTester - 2019.06.11 at 14h 13m 24s.xml">
+      <configuration name="TestGsonTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.06.06 at 09h 58m 38s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestJsonResponse - 2019.06.11 at 14h 13m 30s.xml">
+      <configuration name="TestJsonResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJsonResponse - 2019.06.11 at 14h 13m 59s.xml">
+      <configuration name="TestJsonResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJsonResponse - 2019.06.11 at 14h 16m 03s.xml">
+      <configuration name="TestJsonResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJsonResponse - 2019.06.11 at 14h 19m 10s.xml">
+      <configuration name="TestJsonResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJsonResponse - 2019.06.11 at 14h 19m 28s.xml">
+      <configuration name="TestJsonResponse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -325,16 +402,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499285" visible="true" weight="0.28313252" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49213162" visible="true" weight="0.28313252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50500715" side_tool="true" visible="true" weight="0.28313252" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5078684" side_tool="true" visible="true" weight="0.28313252" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49928468" weight="0.3286908" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49570817" weight="0.32650602" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.490701" weight="0.32650602" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,24 +487,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGson/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGson/TestGsonTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/JsonResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="114">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGson/TestJsonResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -439,24 +548,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestGson/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="338">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestGson/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
           </folding>
         </state>
       </provider>
