@@ -9,7 +9,7 @@ import java.net.URL;
 import java.util.List;
 
 
-class ParseJson {
+class GsonTester {
 
     BufferedReader in;
     Gson g = new Gson();
@@ -17,12 +17,12 @@ class ParseJson {
     JsonResponse swQuote;
 
 
-    public ParseJson(String path) {
+    public GsonTester(String path) {
         try {
             this.in = new BufferedReader(new FileReader(path));
 
         } catch (Exception e) {
-            System.out.println("ERROR: Problem with file.");
+            throw new IllegalStateException("Can't read file that doesn't exist.");
         }
     }
 
@@ -65,9 +65,13 @@ class ParseJson {
         }
     }
 
-    public void printRandom(){
+    public String printRandom(){
         int range = this.recentQuotes.length;
         int randInteger = (int)(Math.random() * range) + 1;
-        System.out.println(this.recentQuotes[randInteger].toString() );
+        return this.recentQuotes[randInteger].toString();
+    }
+
+    public JsonResponse[] getRecentQuotes(){
+        return this.recentQuotes;
     }
 }

@@ -14,30 +14,31 @@ public class App {
         return "Hello world.";
     }
 
-    public static void runInternetGetQuote(ParseJson p, String path){
-        p.getSwData(path);
+    public static String runInternetGetQuote(GsonTester p, String path){
+        return p.getSwData(path);
     }
 
-    public static void runLocalGetQuote(ParseJson p){
+    public static String runLocalGetQuote(GsonTester p){
         p.createResponseList();
-        p.printRandom();
+        return p.printRandom();
     }
 
     public static void main(String[] args) throws IOException {
+
         String input = ""; //for user input
         System.out.println(new App().getGreeting());
 
         String recentQuotesPath = "src/main/resources/recentquotes.json";
-        ParseJson parser = new ParseJson(recentQuotesPath);
+        GsonTester parser = new GsonTester(recentQuotesPath);
         while( !(input.equals("i") || input.equals("l") ) ) {
             System.out.print("Type \'l\' for a local quote or \'i\' for an internet quote: ");
             Scanner in = new Scanner(System.in);
             input = in.nextLine();
         }
         if(input.equals("i") ){
-            runInternetGetQuote(parser, recentQuotesPath);
+            System.out.println( runInternetGetQuote(parser, recentQuotesPath) );
         } else {
-            runLocalGetQuote(parser);
+            System.out.println( runLocalGetQuote(parser) );
         }
 
     }
