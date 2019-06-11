@@ -15,4 +15,9 @@ public class AppTest {
     }
 
 
+    @Test
+    public void testApp_getSwData(){
+        App classUnderTest = new App();
+//        assertNotNull("App should return a random quote", classUnderTest.();
+    }
 }

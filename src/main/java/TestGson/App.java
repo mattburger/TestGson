@@ -7,21 +7,39 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class App {
     public String getGreeting() {
         return "Hello world.";
     }
 
+    public static void runInternetGetQuote(ParseJson p, String path){
+        p.getSwData(path);
+    }
+
+    public static void runLocalGetQuote(ParseJson p){
+        p.createResponseList();
+        p.printRandom();
+    }
+
     public static void main(String[] args) throws IOException {
+        String input = ""; //for user input
         System.out.println(new App().getGreeting());
 
-        String path = "src/main/resources/recentquotes.json";
-        ParseJson parser = new ParseJson(path);
+        String recentQuotesPath = "src/main/resources/recentquotes.json";
+        ParseJson parser = new ParseJson(recentQuotesPath);
+        while( !(input.equals("i") || input.equals("l") ) ) {
+            System.out.print("Type \'l\' for a local quote or \'i\' for an internet quote: ");
+            Scanner in = new Scanner(System.in);
+            input = in.nextLine();
+        }
+        if(input.equals("i") ){
+            runInternetGetQuote(parser, recentQuotesPath);
+        } else {
+            runLocalGetQuote(parser);
+        }
 
-        parser.createResponseList();
-
-        parser.printRandom();
     }
 
 }
