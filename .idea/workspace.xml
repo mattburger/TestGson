@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c62fe461-5940-4643-9ec0-66f992e8dbd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestGson/swQuotes/SwResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/recentquotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/recentquotes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestGson/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestGson/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestGson/JsonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestGson/JsonResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recentquotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recentquotes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGson/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGson/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c62fe461-5940-4643-9ec0-66f992e8dbd0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
