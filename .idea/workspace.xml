@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c62fe461-5940-4643-9ec0-66f992e8dbd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestGson/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestGson/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestGson/GsonTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recentquotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recentquotes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGson/TestJsonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGson/TestJsonResponse.java" afterDir="false" />
-    </list>
+    <list default="true" id="c62fe461-5940-4643-9ec0-66f992e8dbd0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,6 +22,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view />
       </state>
     </system>
@@ -391,7 +389,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
