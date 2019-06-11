@@ -4,6 +4,7 @@ import TestGson.swQuotes.SwResponse;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.*;
 import java.io.*;
+import java.net.ConnectException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
@@ -34,7 +35,8 @@ class GsonTester {
     public String getSwData(String path){
         try {
             URL url = new URL("http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote");
-            HttpURLConnection con = (HttpURLConnection)url.openConnection();
+
+            HttpURLConnection con = (HttpURLConnection) url.openConnection();
             Gson gson = new Gson();
 
             BufferedReader reader = new BufferedReader(new InputStreamReader( con.getInputStream() ) );
@@ -56,8 +58,6 @@ class GsonTester {
                 reader2.close();
             }
 
-
-            System.out.println(this.swQuote.getStarWarsQuote());
             return swQuote.getStarWarsQuote();
 
         } catch (Exception e){

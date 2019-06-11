@@ -21,5 +21,5 @@ public class TestJsonResponse {
         assertEquals("toString should return a string", "me: A boring quote.", notStarWarsResponse.toString());
 
     }
-    
+
 }

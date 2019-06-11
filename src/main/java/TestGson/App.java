@@ -36,7 +36,15 @@ public class App {
             input = in.nextLine();
         }
         if(input.equals("i") ){
-            System.out.println( runInternetGetQuote(parser, recentQuotesPath) );
+            String output = runInternetGetQuote(parser, recentQuotesPath);
+            if(output.equals("Error handling Star Wars quotes.")){
+                System.out.println("Error handling online data.");
+                System.out.println("Generating local quote....");
+
+                System.out.println(runLocalGetQuote(parser));
+            } else {
+                System.out.println(runInternetGetQuote(parser, recentQuotesPath));
+            }
         } else {
             System.out.println( runLocalGetQuote(parser) );
         }
